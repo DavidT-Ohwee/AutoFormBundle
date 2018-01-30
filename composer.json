@@ -1,5 +1,5 @@
 {
-    "name": "a2lix/auto-form-bundle",
+    "name": "ohwee/auto-form-bundle",
     "type": "symfony-bundle",
     "description": "Automatize form creation",
     "keywords": ["symfony2", "form", "field", "automatize", "automatization", "magic"],
@@ -13,14 +13,8 @@
     ],
     "require": {
         "php": "^5.4 || ^7.0",
-        "symfony/form": "~2.8|~3.0",
-        "symfony/doctrine-bridge": "~2.8|~3.0"
-    },
-    "require-dev": {
-        "symfony/validator": "~2.8|~3.0",
-        "phpunit/phpunit": "~4.1",
-        "friendsofphp/php-cs-fixer": "~1.10",
-        "doctrine/orm": "~2.4"
+        "symfony/form": "4.0",
+        "symfony/doctrine-bridge": "~4.0"
     },
     "suggest": {
         "a2lix/translation-form-bundle": "For translation form"
