@@ -13,7 +13,6 @@
     ],
     "require": {
         "php": "^5.4 || ^7.0",
-        "symfony/form": "4.0",
         "symfony/doctrine-bridge": "~4.0"
     },
     "suggest": {
